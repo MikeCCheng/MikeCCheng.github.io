@@ -11,15 +11,20 @@ h1 {
   margin: 0.67em 0;
 }
 
+h2  {
+  font-family: arial;
+  color: orange;
+}
+
 body  {
-  background-color: black;
+  background-color: #FFB3BA;
 }
 
 p:nth-of-type(2n) {
-  background-color: pink;
+  background-color: green;
 }
 
-p:nth-last-of-type(2n+1){
+p:nth-of-type(2n+1){
   background-color: aqua;
 }
 
@@ -27,7 +32,36 @@ ul {
   list-style-type: square;
   color: blanchedalmond;
 }
+
+nav {
+  border: 4px dotted blue;
+  background-color: DarkTurquoise;
+}
 ol {
   list-style-type: lower-alpha;
   color: deepskyblue;
+}
+
+a:link {
+  color: gold;
+}
+
+/* visited link */
+a:visited {
+  color: lavender;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: limegreen;
+}
+
+img{
+  width: 250px;
+  height: 250px;
 }
